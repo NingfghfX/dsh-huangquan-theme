@@ -38,11 +38,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_GITHUB_USER/dsh-huangquan-theme.git"
+    "url": "git+https://github.com/NingfghfX/dsh-huangquan-theme.git"
   },
-  "homepage": "https://github.com/YOUR_GITHUB_USER/dsh-huangquan-theme#readme",
+  "homepage": "https://github.com/NingfghfX/dsh-huangquan-theme#readme",
   "bugs": {
-    "url": "https://github.com/YOUR_GITHUB_USER/dsh-huangquan-theme/issues"
+    "url": "https://github.com/NingfghfX/dsh-huangquan-theme/issues"
   },
   "dsh": {
     "bundle": {

@@ -127,3 +127,13 @@ npm install          # 只有一个运行时依赖：@deepseek-ai/schemastery
 ## 许可
 
 [MIT](LICENSE)。`assets/` 下的图片素材随插件分发，二次使用请自行确认授权。
+
+## 免责声明
+
+本插件是**非官方粉丝作品**，与 miHoYo / 米哈游、DeepSeek 均无关联。「黄泉」「崩坏：星穹铁道」等名称与角色形象归其权利人所有。
+
+- **代码**以 MIT 发布，可自由使用、修改、再分发；
+- **`assets/` 素材**仅用于个人桌面美化，请勿商用或二次贩卖；如需商用请自行取得授权。
+
+This is an unofficial fan-made theme and is not affiliated with miHoYo or DeepSeek.
+Character names and artwork belong to their respective owners.
