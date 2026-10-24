@@ -20,6 +20,7 @@
     "assets/",
     "cordis.patch.yml",
     "locale/",
+    "docs/",
     "icon.svg"
   ],
   "engines": {
