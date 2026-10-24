@@ -1,0 +1,20 @@
+# 依赖与构建产物（DSH 会各自安装）
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+
+# 本地备份 / 临时文件
+.backup-*/
+*.log
+.DS_Store
+Thumbs.db
+.huangquan-tmp/
+
+# 根目录的个人素材副本（真正被引用的在 assets/backgrounds/ 里）
+/bg1.jpg
+/bg2.jpg
+/pet.png
+
+# 打包产物
+*.tgz
+*.zip

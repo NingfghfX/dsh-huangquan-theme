@@ -1,0 +1,6 @@
+# dsh-huangquan-theme 的 Loader 补丁：插入一个条目。
+# 字段默认值来自 src/index.js 导出的 Config（Schemastery schema），
+# 所以这里不需要写 config 层；用户改的值由 settings 服务写回本条目。
+- insert:
+    - id: dsh-huangquan-theme
+      name: dsh-huangquan-theme

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Huangquan Theme">
+  <defs>
+    <linearGradient id="hqGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="0.55" stop-color="#a855f7"/>
+      <stop offset="1" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#hqGrad)"/>
+  <path d="M18 44c0-9 6.3-16 14-16s14 7 14 16c0 2.2-1.8 4-4 4H22c-2.2 0-4-1.8-4-4z" fill="#fdf4ff" fill-opacity="0.92"/>
+  <circle cx="27" cy="38" r="2.4" fill="#4c1d95"/>
+  <circle cx="37" cy="38" r="2.4" fill="#4c1d95"/>
+  <path d="M32 20c3.6 0 6.5 2.9 6.5 6.5S35.6 33 32 33s-6.5-2.9-6.5-6.5S28.4 20 32 20z" fill="#fdf4ff" fill-opacity="0.55"/>
+  <circle cx="47" cy="17" r="3.2" fill="#fbcfe8"/>
+  <circle cx="17" cy="20" r="2.2" fill="#fbcfe8" fill-opacity="0.8"/>
+</svg>

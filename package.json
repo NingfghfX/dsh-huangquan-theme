@@ -1,0 +1,60 @@
+{
+  "name": "dsh-huangquan-theme",
+  "version": "2.0.0",
+  "description": "黄泉主题 for DeepSeek Harness：本地壁纸 + 蒙版/毛玻璃、输入框彼岸花环、呼吸挂件、背景雨、花瓣拖尾、余额气泡，以及点挂件弹出的「黄泉外观工作台」。",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./src/index.js",
+    "./client": "./lib/client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src/",
+    "lib/",
+    "assets/",
+    "cordis.patch.yml",
+    "locale/",
+    "icon.svg"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "theme",
+    "wallpaper",
+    "rain",
+    "huangquan"
+  ],
+  "dependencies": {
+    "@deepseek-ai/schemastery": "^3.18.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_GITHUB_USER/dsh-huangquan-theme.git"
+  },
+  "homepage": "https://github.com/YOUR_GITHUB_USER/dsh-huangquan-theme#readme",
+  "bugs": {
+    "url": "https://github.com/YOUR_GITHUB_USER/dsh-huangquan-theme/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-theme"
+      ]
+    }
+  }
+}
