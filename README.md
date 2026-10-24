@@ -1,10 +1,12 @@
 # dsh-huangquan-theme · 黄泉外观
 
+> 作者：**NingfghfX** ｜ 非官方粉丝作品，纯为爱发电
+
 给 **DeepSeek Harness（DSH）Web / Desktop** 用的一套「黄泉」主题插件：本地壁纸、可调蒙版与毛玻璃、输入框外的彼岸花环、右下角呼吸挂件、背景斜雨、鼠标花瓣拖尾，以及一个点挂件才弹出的**黄泉外观工作台**（配置直接写进 DSH 的插件 Config，改完即时生效）。
 
-架构参照 [`hyposelen1a/dsh-columbina-theme`](https://github.com/hyposelen1a/dsh-columbina-theme)：Host 侧导出 Schemastery `Config` 并用 `webserver/index-inject` 做首帧注入，Client 侧负责运行时渲染。
+代码为原创实现：Host 侧导出 Schemastery `Config` 并用 `webserver/index-inject` 做首帧注入，Client 侧负责运行时渲染。
 
-> 适配 DSH `0.2.1-rc.3`（`0.2.x` 系列）。DSH 还在 preview 阶段，接口可能变；升级后若失效请先看 [CHANGELOG](#) 与 issue。
+> 适配 DSH `0.2.1-rc.3`（`0.2.x` 系列）。DSH 还在 preview 阶段，接口可能变；升级后若失效请提 issue。
 
 ---
 
@@ -130,10 +132,10 @@ npm install          # 只有一个运行时依赖：@deepseek-ai/schemastery
 
 ## 免责声明
 
-本插件是**非官方粉丝作品**，与 miHoYo / 米哈游、DeepSeek 均无关联。「黄泉」「崩坏：星穹铁道」等名称与角色形象归其权利人所有。
+本插件是**非官方粉丝作品**，纯为爱发电。
 
 - **代码**以 MIT 发布，可自由使用、修改、再分发；
-- **`assets/` 素材**仅用于个人桌面美化，请勿商用或二次贩卖；如需商用请自行取得授权。
+- 「黄泉」及相关角色形象的权利归其官方所有，本仓库不主张任何相关权利；
+- **`assets/` 素材**仅用于个人桌面美化，请勿商用或二次贩卖。
 
-This is an unofficial fan-made theme and is not affiliated with miHoYo or DeepSeek.
-Character names and artwork belong to their respective owners.
+This is an unofficial fan-made theme. Character names and artwork belong to their respective official owners.

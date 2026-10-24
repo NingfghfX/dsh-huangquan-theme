@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "description": "黄泉主题 for DeepSeek Harness：本地壁纸 + 蒙版/毛玻璃、输入框彼岸花环、呼吸挂件、背景雨、花瓣拖尾、余额气泡，以及点挂件弹出的「黄泉外观工作台」。",
   "license": "MIT",
+  "author": "NingfghfX",
   "type": "module",
   "main": "src/index.js",
   "icon": "./icon.svg",

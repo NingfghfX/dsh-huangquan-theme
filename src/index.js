@@ -1,12 +1,12 @@
 /**
- * dsh-huangquan-theme — Host half（黄泉主题，复刻 dsh-columbina-theme 的架构）。
+ * dsh-huangquan-theme — Host half（黄泉主题）。
  *
- * 职责（与哥伦比娅一一对应）：
+ * 职责：
  *   1. 导出 Config（Schemastery schema，volatile 字段 = 可热更新），
  *      通过 ctx.settings.describe/update 读写配置；
  *   2. 用 webserver/index-inject 结构化注入行提供壁纸 + 蒙版 + token 覆盖，
  *      HTTP 与 Electron 两端都首帧生效；
- *   3. 提供 assets/backgrounds 预设图、缩略图、配置读写、自检上报四类路由。
+ *   3. 提供 assets/backgrounds 预设图、缩略图、配置读写、余额、自检上报等路由。
  *
  * 数据流：assets/backgrounds/<file> --(assets 路由)--> CSS url()
  *        backgroundPreset 只存文件名字干，图片本身永远由 Host 读盘。
